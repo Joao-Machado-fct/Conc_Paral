@@ -21,6 +21,7 @@ public class Sequencial {
             }
             quadrado++;
         }
+
         double pi = (circulo/quadrado)*4;
         System.out.println(pi);
         double endTime = System.nanoTime();
