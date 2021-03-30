@@ -6,6 +6,7 @@
 
 int main(int argc, char const *argv[])
 {
+    //TEST
     char *p;
 
     int n_iter = strtol(argv[1], &p, 10);
