@@ -1,0 +1,1 @@
+ITERATIONS="1000 10000 100000 1000000 10000000 100000000"; THREADS="1 2 4 8 16"; NRUNS="5"; for IT in $ITERATIONS; do for TH in $THREADS; do for R in $(seq 1 $NRUNS); domonte_pi_omp.exe $IT $TH; done; done; done | tee output.csv
